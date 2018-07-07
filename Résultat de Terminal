@@ -1,0 +1,45 @@
+Last login: Sat Jul  7 03:44:16 on ttys000
+iMac-de-Marine:~ XMarineX$ cd desktop
+iMac-de-Marine:desktop XMarineX$ mkdir Jaime_le_shell
+iMac-de-Marine:desktop XMarineX$ cd Jaime_le_shell
+iMac-de-Marine:Jaime_le_shell XMarineX$ >test1
+iMac-de-Marine:Jaime_le_shell XMarineX$ mkdir test2
+iMac-de-Marine:Jaime_le_shell XMarineX$ mkdir test3
+iMac-de-Marine:Jaime_le_shell XMarineX$ mkdir test4
+iMac-de-Marine:Jaime_le_shell XMarineX$ > test5
+iMac-de-Marine:Jaime_le_shell XMarineX$ mkdir test6
+iMac-de-Marine:Jaime_le_shell XMarineX$ ls -l
+total 0
+-rw-r--r--  1 XMarineX  staff   0  7 jul 03:50 test1
+drwxr-xr-x  2 XMarineX  staff  68  7 jul 03:51 test2
+drwxr-xr-x  2 XMarineX  staff  68  7 jul 03:51 test3
+drwxr-xr-x  2 XMarineX  staff  68  7 jul 03:51 test4
+-rw-r--r--  1 XMarineX  staff   0  7 jul 03:51 test5
+drwxr-xr-x  2 XMarineX  staff  68  7 jul 03:51 test6
+iMac-de-Marine:Jaime_le_shell XMarineX$ mkdir le_shell_cest_trop_cool!
+iMac-de-Marine:Jaime_le_shell XMarineX$ mv test1 le_shell_cest_trop_cool!
+iMac-de-Marine:Jaime_le_shell XMarineX$ mv test5 le_shell_cest_trop_cool!
+iMac-de-Marine:Jaime_le_shell XMarineX$ cp test2 le_shell_cest_trop_cool!
+cp: test2 is a directory (not copied).
+iMac-de-Marine:Jaime_le_shell XMarineX$ cp -r test2 le_shell_cest_trop_cool!
+iMac-de-Marine:Jaime_le_shell XMarineX$ cp -r test6 le_shell_cest_trop_cool!
+iMac-de-Marine:Jaime_le_shell XMarineX$ ls -l
+total 0
+drwxr-xr-x  6 XMarineX  staff  204  7 jul 03:53 le_shell_cest_trop_cool!
+drwxr-xr-x  2 XMarineX  staff   68  7 jul 03:51 test2
+drwxr-xr-x  2 XMarineX  staff   68  7 jul 03:51 test3
+drwxr-xr-x  2 XMarineX  staff   68  7 jul 03:51 test4
+drwxr-xr-x  2 XMarineX  staff   68  7 jul 03:51 test6
+iMac-de-Marine:Jaime_le_shell XMarineX$ cd le_shell_cest_trop_cool!
+iMac-de-Marine:le_shell_cest_trop_cool! XMarineX$ ls -l
+total 0
+-rw-r--r--  1 XMarineX  staff   0  7 jul 03:50 test1
+drwxr-xr-x  2 XMarineX  staff  68  7 jul 03:53 test2
+-rw-r--r--  1 XMarineX  staff   0  7 jul 03:51 test5
+drwxr-xr-x  2 XMarineX  staff  68  7 jul 03:53 test6
+iMac-de-Marine:le_shell_cest_trop_cool! XMarineX$ 
+
+
+
+
+
