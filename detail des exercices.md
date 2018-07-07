@@ -10,12 +10,12 @@ mkdir Jaime_le_shell .
 j'ai accédée à ce nouveau dossier comme précédemment avec : 
 cd Jaime_le_shell .
 puis j'ai créée les fichiers avec > et les dossiers avec mkdir comme ceci: 
->test1 .
-mkdir test2 .
-mkdir test3 .
-mkdir test4 .
->test5 .
-mkdir test6 .
+                                                                           > test1 .
+                                                                           mkdir test2 .
+                                                                           mkdir test3 .
+                                                                           mkdir test4 .
+                                                                           > test5 .
+                                                                           mkdir test6 .
                                                                            
 J'ai ensuite affiché les informations de manière détaillés de "Jaime_le_shell" avec la commande ls -l . (ls me permet de savoir ce qui se trouve dans un répertoire et -l me permet d'obtenir un listing ordonné sur une seule colonne, avec de nombreuses informations additionelles (droits, taille etc...) 
 
